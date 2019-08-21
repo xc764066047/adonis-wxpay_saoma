@@ -1,0 +1,17 @@
+执行日期：2014-10-27-20：31：29
+【接收到的native通知】:
+<xml><appid><![CDATA[wx8919020d37783764]]></appid>
+<openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>
+<mch_id><![CDATA[10012857]]></mch_id>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<nonce_str><![CDATA[UxNCeiIUGrJTbqbB]]></nonce_str>
+<product_id><![CDATA[wx8919020d37783764static]]></product_id>
+<sign><![CDATA[710C5D0EB3B6A512646F4912DB325517]]></sign>
+</xml>
+
+
+执行日期：2014-10-27-20：31：30
+【返回微信的native响应】:
+<xml><return_code><![CDATA[SUCCESS]]></return_code><result_code><![CDATA[SUCCESS]]></result_code><prepay_id><![CDATA[wx20141027203125161ae7ba550653695913]]></prepay_id><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><nonce_str><![CDATA[qaujacbbillnzw2zu6g42e9h7s738xs9]]></nonce_str><sign><![CDATA[0376161E8FA17DADE224FF2F2DDEEDB3]]></sign></xml>
+
+

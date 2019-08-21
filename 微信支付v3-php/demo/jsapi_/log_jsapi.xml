@@ -1,0 +1,127 @@
+09:59:49 url https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.39ebuy.com/wxpayv3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+
+20:09:39 UnifiedOrder_pub createXml-xyz:<xml><openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid><body><![CDATA[千锋教育]]></body><out_trade_no><![CDATA[wx8919020d377837641414411779]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><spbill_create_ip><![CDATA[118.252.52.251]]></spbill_create_ip><nonce_str><![CDATA[60uf9sh6nmppr9azveb2bn7arhy79izk]]></nonce_str><sign><![CDATA[2D8A96553672D56BB2908CE4B0A23D0F]]></sign></xml>
+20:09:39 Wxpay_client_pub postXml-xml:<xml><openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid><body><![CDATA[千锋教育]]></body><out_trade_no><![CDATA[wx8919020d377837641414411779]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><spbill_create_ip><![CDATA[118.252.52.251]]></spbill_create_ip><nonce_str><![CDATA[60uf9sh6nmppr9azveb2bn7arhy79izk]]></nonce_str><sign><![CDATA[2D8A96553672D56BB2908CE4B0A23D0F]]></sign></xml>
+20:09:39 Common_util_pub postXmlCurl-xml:
+
+
+http://www.39ebuy.com/wxpayv3/demo/js_api_call.php
+
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.39ebuy.com/wxpayv3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+
+openid: ou9dHt0L8qFLI1foP-kj5x1mDWsM
+
+<xml>
+  <openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>
+  <body><![CDATA[千锋教育]]></body>
+  <out_trade_no><![CDATA[wx8919020d377837641414411779]]></out_trade_no>
+  <total_fee>1</total_fee>
+  <notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <appid><![CDATA[wx8919020d37783764]]></appid>
+  <mch_id>10012857</mch_id>
+  <spbill_create_ip><![CDATA[118.252.52.251]]></spbill_create_ip>
+  <nonce_str><![CDATA[60uf9sh6nmppr9azveb2bn7arhy79izk]]></nonce_str>
+  <sign><![CDATA[2D8A96553672D56BB2908CE4B0A23D0F]]></sign>
+</xml>
+
+20:09:39 Common_util_pub postXmlCurl-url:https://api.mch.weixin.qq.com/pay/unifiedorder
+20:09:44 Common_util_pub postXmlCurl-data:
+<xml>
+  <return_code><![CDATA[SUCCESS]]></return_code>  
+  <return_msg><![CDATA[OK]]></return_msg>  
+  <appid><![CDATA[wx8919020d37783764]]></appid>  
+  <mch_id><![CDATA[10012857]]></mch_id>  
+  <nonce_str><![CDATA[Be8YX7gjCdtCT7cr]]></nonce_str>  
+  <sign><![CDATA[885B6D84635AE6C020EF753A00C8EEDB]]></sign>  
+  <result_code><![CDATA[SUCCESS]]></result_code>  
+  <prepay_id><![CDATA[wx201410272009395522657a690389285100]]></prepay_id>  
+  <trade_type><![CDATA[JSAPI]]></trade_type> 
+</xml>
+
+
+20:09:44 xmlToArray:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx8919020d37783764]]></appid>
+<mch_id><![CDATA[10012857]]></mch_id>
+<nonce_str><![CDATA[Be8YX7gjCdtCT7cr]]></nonce_str>
+<sign><![CDATA[885B6D84635AE6C020EF753A00C8EEDB]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201410272009395522657a690389285100]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+20:09:44 prepay_id wx201410272009395522657a690389285100
+20:09:44 jsApiParameters 
+
+{
+    "appId": "wx8919020d37783764",
+    "timeStamp": "1414411784",
+    "nonceStr": "gbwr71b5no6q6ne18c8up1u7l7he2y75",
+    "package": "prepay_id=wx201410272009395522657a690389285100",
+    "signType": "MD5",
+    "paySign": "9C6747193720F851EB876299D59F6C7D"
+}
+
+
+20:10:06 xmlToArray:
+
+<xml>
+  <appid><![CDATA[wx8919020d37783764]]></appid>  
+  <bank_type><![CDATA[CFT]]></bank_type>  
+  <fee_type><![CDATA[CNY]]></fee_type>  
+  <is_subscribe><![CDATA[Y]]></is_subscribe>  
+  <mch_id><![CDATA[10012857]]></mch_id>  
+  <nonce_str><![CDATA[60uf9sh6nmppr9azveb2bn7arhy79izk]]></nonce_str>  
+  <openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>  
+  <out_trade_no><![CDATA[wx8919020d377837641414411779]]></out_trade_no>  
+  <result_code><![CDATA[SUCCESS]]></result_code>  
+  <return_code><![CDATA[SUCCESS]]></return_code>  
+  <sign><![CDATA[0C1D7F2534F1473247550A5A138F0CEB]]></sign>  
+  <sub_mch_id><![CDATA[10012857]]></sub_mch_id>  
+  <time_end><![CDATA[20141027200958]]></time_end>  
+  <total_fee>1</total_fee>  
+  <trade_type><![CDATA[JSAPI]]></trade_type>  
+  <transaction_id><![CDATA[1002750185201410270005514026]]></transaction_id> 
+</xml>
+
+
+执行日期：2014-10-27-20：10：06
+【接收到的notify通知】:
+<xml><appid><![CDATA[wx8919020d37783764]]></appid>
+<bank_type><![CDATA[CFT]]></bank_type>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[10012857]]></mch_id>
+<nonce_str><![CDATA[60uf9sh6nmppr9azveb2bn7arhy79izk]]></nonce_str>
+<openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>
+<out_trade_no><![CDATA[wx8919020d377837641414411779]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[0C1D7F2534F1473247550A5A138F0CEB]]></sign>
+<sub_mch_id><![CDATA[10012857]]></sub_mch_id>
+<time_end><![CDATA[20141027200958]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[1002750185201410270005514026]]></transaction_id>
+</xml>
+
+
+执行日期：2014-10-27-20：10：06
+【支付成功】:
+<xml><appid><![CDATA[wx8919020d37783764]]></appid>
+<bank_type><![CDATA[CFT]]></bank_type>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[10012857]]></mch_id>
+<nonce_str><![CDATA[60uf9sh6nmppr9azveb2bn7arhy79izk]]></nonce_str>
+<openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>
+<out_trade_no><![CDATA[wx8919020d377837641414411779]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[0C1D7F2534F1473247550A5A138F0CEB]]></sign>
+<sub_mch_id><![CDATA[10012857]]></sub_mch_id>
+<time_end><![CDATA[20141027200958]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[1002750185201410270005514026]]></transaction_id>
+</xml>

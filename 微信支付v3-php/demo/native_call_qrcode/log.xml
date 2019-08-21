@@ -1,0 +1,81 @@
+长链变短链
+
+20:31:16 Common_util_pub postXmlCurl-xml:<xml><long_url><![CDATA[weixin://wxpay/bizpayurl?appid=wx8919020d37783764&mch_id=10012857&nonce_str=9kfudt3zimkz3r1hd5sk38os56d78w81&product_id=wx8919020d37783764static&sign=9EF08EA5D7C204A266439DCB67B58AE3&time_stamp=1414413076]]></long_url><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><nonce_str><![CDATA[csvn8nynwdira8w3xnxipx1jqclcj1z7]]></nonce_str><sign><![CDATA[47CE062359E8173939AF03BFE0B44F5E]]></sign></xml>
+20:31:16 Common_util_pub postXmlCurl-url:https://api.mch.weixin.qq.com/tools/shorturl
+返回数据
+20:31:17 Common_util_pub postXmlCurl-data: 
+<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<mch_id><![CDATA[10012857]]></mch_id>
+<appid><![CDATA[wx8919020d37783764]]></appid>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<short_url><![CDATA[weixin://wxpay/bizpayurl?sr=32ZhR2l]]></short_url>
+<nonce_str><![CDATA[waNXFlU9NdxRk0hN]]></nonce_str>
+<sign><![CDATA[E921DF42F8A18B237A8D98FB09634C3D]]></sign>
+</xml>
+响应数据？通知数据
+20:31:29 xmlToArray:<xml><appid><![CDATA[wx8919020d37783764]]></appid>
+<openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>
+<mch_id><![CDATA[10012857]]></mch_id>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<nonce_str><![CDATA[UxNCeiIUGrJTbqbB]]></nonce_str>
+<product_id><![CDATA[wx8919020d37783764static]]></product_id>
+<sign><![CDATA[710C5D0EB3B6A512646F4912DB325517]]></sign>
+</xml>
+生成统一支付请求XML
+
+20:31:29 UnifiedOrder_pub createXml-xyz:<xml><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx8919020d377837641414413089]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[NATIVE]]></trade_type><product_id><![CDATA[wx8919020d37783764static]]></product_id><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><spbill_create_ip><![CDATA[116.255.233.172]]></spbill_create_ip><nonce_str><![CDATA[0a6k2hhe8am8p674dmfes1jw8ma4qi64]]></nonce_str><sign><![CDATA[973C83A423C24BDD684416443FDAF786]]></sign></xml>
+20:31:29 Wxpay_client_pub postXml-xml:<xml><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx8919020d377837641414413089]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[NATIVE]]></trade_type><product_id><![CDATA[wx8919020d37783764static]]></product_id><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><spbill_create_ip><![CDATA[116.255.233.172]]></spbill_create_ip><nonce_str><![CDATA[0a6k2hhe8am8p674dmfes1jw8ma4qi64]]></nonce_str><sign><![CDATA[973C83A423C24BDD684416443FDAF786]]></sign></xml>
+
+提交统一支付
+20:31:29 Common_util_pub postXmlCurl-xml:<xml><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx8919020d377837641414413089]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[NATIVE]]></trade_type><product_id><![CDATA[wx8919020d37783764static]]></product_id><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><spbill_create_ip><![CDATA[116.255.233.172]]></spbill_create_ip><nonce_str><![CDATA[0a6k2hhe8am8p674dmfes1jw8ma4qi64]]></nonce_str><sign><![CDATA[973C83A423C24BDD684416443FDAF786]]></sign></xml>
+20:31:29 Common_util_pub postXmlCurl-url:https://api.mch.weixin.qq.com/pay/unifiedorder
+统一支付返回prepay_id
+20:31:30 Common_util_pub postXmlCurl-data:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx8919020d37783764]]></appid>
+<mch_id><![CDATA[10012857]]></mch_id>
+<nonce_str><![CDATA[upoo7Aie6aXeXhEb]]></nonce_str>
+<sign><![CDATA[F8705761BD5EB1CFB5793EDF574162FE]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20141027203125161ae7ba550653695913]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?sr=dkjj7UK]]></code_url>
+</xml>
+20:31:30 xmlToArray:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx8919020d37783764]]></appid>
+<mch_id><![CDATA[10012857]]></mch_id>
+<nonce_str><![CDATA[upoo7Aie6aXeXhEb]]></nonce_str>
+<sign><![CDATA[F8705761BD5EB1CFB5793EDF574162FE]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20141027203125161ae7ba550653695913]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?sr=dkjj7UK]]></code_url>
+</xml>
+
+响应数据？支付成功响应
+
+20:32:02 xmlToArray:<xml><appid><![CDATA[wx8919020d37783764]]></appid>
+<bank_type><![CDATA[CFT]]></bank_type>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[10012857]]></mch_id>
+<nonce_str><![CDATA[0a6k2hhe8am8p674dmfes1jw8ma4qi64]]></nonce_str>
+<openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>
+<out_trade_no><![CDATA[wx8919020d377837641414413089]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[0980548A7D41635207642B3C5A1A1CC2]]></sign>
+<sub_mch_id><![CDATA[10012857]]></sub_mch_id>
+<time_end><![CDATA[20141027203157]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[1002750185201410270005522224]]></transaction_id>
+</xml>
+
+
+
+执行日期：2014-10-27-20：31：30
+【返回微信的native响应】:
+<xml><return_code><![CDATA[SUCCESS]]></return_code><result_code><![CDATA[SUCCESS]]></result_code><prepay_id><![CDATA[wx20141027203125161ae7ba550653695913]]></prepay_id><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><nonce_str><![CDATA[qaujacbbillnzw2zu6g42e9h7s738xs9]]></nonce_str><sign><![CDATA[0376161E8FA17DADE224FF2F2DDEEDB3]]></sign></xml>

@@ -1,0 +1,235 @@
+10:20:25 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+10:20:26 code00724d8055f577965a77ed10b39a30b1
+10:20:27 openidoK4jGjld6dXjbaroXZoFI6COk6PQ
+10:24:54 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+10:36:32 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+10:36:32 code029b5dca6f81ebe030c2faee89360856
+10:36:33 openidoK4jGjld6dXjbaroXZoFI6COk6PQ
+10:38:43 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+10:38:44 code004c3b088dcb1fb3f2fd2dcf7094eb99
+10:38:44 openidoK4jGjld6dXjbaroXZoFI6COk6PQ
+10:42:35 postXml-xml:<xml><long_url><![CDATA[weixin://wxpay/bizpayurl?appid=wx6b00d4511b981668&mch_id=10016845&nonce_str=lnn8s9jzc3ybn3cjagfus0oey75kaa33&product_id=wx6b00d4511b981668static&sign=F2BC06F6D8084BF6C7108486F9439755&time_stamp=1411872155]]></long_url><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><nonce_str><![CDATA[hafb1ab4rnxqpdi6e8fdlxgjxl4bot1x]]></nonce_str><sign><![CDATA[C393E48F71190330F723997CA67B8F90]]></sign></xml>
+10:42:35 postXmlCurl-xml:<xml><long_url><![CDATA[weixin://wxpay/bizpayurl?appid=wx6b00d4511b981668&mch_id=10016845&nonce_str=lnn8s9jzc3ybn3cjagfus0oey75kaa33&product_id=wx6b00d4511b981668static&sign=F2BC06F6D8084BF6C7108486F9439755&time_stamp=1411872155]]></long_url><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><nonce_str><![CDATA[hafb1ab4rnxqpdi6e8fdlxgjxl4bot1x]]></nonce_str><sign><![CDATA[C393E48F71190330F723997CA67B8F90]]></sign></xml>
+10:42:36 postXmlCurl-data:<xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[签名错误]]></return_msg>
+</xml>
+10:42:47 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+10:42:49 code012a4cb8adc9d9ca349eef5438c99183
+10:42:50 openidoK4jGjld6dXjbaroXZoFI6COk6PQ
+10:42:50 postXml-xml:<xml><openid><![CDATA[oK4jGjld6dXjbaroXZoFI6COk6PQ]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681411872170]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.xxxxxx.com/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.21.111]]></spbill_create_ip><nonce_str><![CDATA[kv0boj3vic8lp2te0wlt9h2h9pm211kx]]></nonce_str><sign><![CDATA[60D9BB1C25BF9180E298F059623C0B7A]]></sign></xml>
+10:42:50 postXmlCurl-xml:<xml><openid><![CDATA[oK4jGjld6dXjbaroXZoFI6COk6PQ]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681411872170]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.xxxxxx.com/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.21.111]]></spbill_create_ip><nonce_str><![CDATA[kv0boj3vic8lp2te0wlt9h2h9pm211kx]]></nonce_str><sign><![CDATA[60D9BB1C25BF9180E298F059623C0B7A]]></sign></xml>
+10:42:52 postXmlCurl-data:<xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[签名错误]]></return_msg>
+</xml>
+11:00:38 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:00:39 code02dfea02c93ba9cb9563669f9805832a
+11:00:39 openidoK4jGjld6dXjbaroXZoFI6COk6PQ
+11:00:39 postXml-xml:<xml><openid><![CDATA[oK4jGjld6dXjbaroXZoFI6COk6PQ]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681411873239]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.21.111]]></spbill_create_ip><nonce_str><![CDATA[o9um586fqx1yssd6h1anmet0vnrp20bw]]></nonce_str><sign><![CDATA[79CF54F5A25607AB2DC722D5E87BDF9C]]></sign></xml>
+11:00:39 postXmlCurl-xml:<xml><openid><![CDATA[oK4jGjld6dXjbaroXZoFI6COk6PQ]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681411873239]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.21.111]]></spbill_create_ip><nonce_str><![CDATA[o9um586fqx1yssd6h1anmet0vnrp20bw]]></nonce_str><sign><![CDATA[79CF54F5A25607AB2DC722D5E87BDF9C]]></sign></xml>
+11:00:41 postXmlCurl-data:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx6b00d4511b981668]]></appid>
+<mch_id><![CDATA[10016845]]></mch_id>
+<nonce_str><![CDATA[QATkeoul7TueBpHJ]]></nonce_str>
+<sign><![CDATA[AF00B040191D52E4EC7398145FA899AB]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20140928110133d0769a1dcc0843880060]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+11:07:56 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:07:56 code012c59102e993b14b7b6555be7049e30
+11:07:58 openidoK4jGjld6dXjbaroXZoFI6COk6PQ
+11:07:58 postXml-xml:<xml><openid><![CDATA[oK4jGjld6dXjbaroXZoFI6COk6PQ]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681411873678]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.21.111]]></spbill_create_ip><nonce_str><![CDATA[l06fu226m84uld9quy667iv2e4r56tar]]></nonce_str><sign><![CDATA[ECBD44DA72DE39F88EDCD0B860E2E0A5]]></sign></xml>
+11:07:58 postXmlCurl-xml:<xml><openid><![CDATA[oK4jGjld6dXjbaroXZoFI6COk6PQ]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681411873678]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.21.111]]></spbill_create_ip><nonce_str><![CDATA[l06fu226m84uld9quy667iv2e4r56tar]]></nonce_str><sign><![CDATA[ECBD44DA72DE39F88EDCD0B860E2E0A5]]></sign></xml>
+11:07:59 postXmlCurl-data:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx6b00d4511b981668]]></appid>
+<mch_id><![CDATA[10016845]]></mch_id>
+<nonce_str><![CDATA[hQFvIPu9IOAbuw5r]]></nonce_str>
+<sign><![CDATA[CB9565AEEA39C58432446C50C12F2038]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201409281108525926976d3d0905962218]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+11:07:59 jsApiParameters {"appId":"wx6b00d4511b981668","timeStamp":"1411873679","nonceStr":"1x70p08x5tug3zqin9gutiowzvqt54ie","package":"prepay_id=wx201409281108525926976d3d0905962218","signType":"MD5","paySign":"F636197E8073C94C5F0211F01FDE3AB9"}
+11:44:09 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:45:07 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:45:14 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:45:14 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:48:33 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:49:17 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:50:07 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:50:59 code0105b28dcd2fe554155e09885265e211
+11:51:00 openidoK4jGjvVXSUDTksD9JRrrXfsGLXc
+11:51:00 postXml-xml:<xml><openid><![CDATA[oK4jGjvVXSUDTksD9JRrrXfsGLXc]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681412049060]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.58.105]]></spbill_create_ip><nonce_str><![CDATA[iq3vutbz4kliu28zdazvuxco7ctbhidr]]></nonce_str><sign><![CDATA[83E0208488B69F4D0C1A65B2924D82E0]]></sign></xml>
+11:51:00 postXmlCurl-xml:<xml><openid><![CDATA[oK4jGjvVXSUDTksD9JRrrXfsGLXc]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681412049060]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.58.105]]></spbill_create_ip><nonce_str><![CDATA[iq3vutbz4kliu28zdazvuxco7ctbhidr]]></nonce_str><sign><![CDATA[83E0208488B69F4D0C1A65B2924D82E0]]></sign></xml>
+11:51:01 postXmlCurl-data:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx6b00d4511b981668]]></appid>
+<mch_id><![CDATA[10016845]]></mch_id>
+<nonce_str><![CDATA[TOsfFt9kEnmEsT5h]]></nonce_str>
+<sign><![CDATA[C97EA17A6453FD2F96D8B4D792839C20]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2014093011515686861f82b70560788137]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+11:51:01 jsApiParameters {"appId":"wx6b00d4511b981668","timeStamp":"1412049061","nonceStr":"29uf4sbg0pr0pkm82eva0p43a5fe8pqx","package":"prepay_id=wx2014093011515686861f82b70560788137","signType":"MD5","paySign":"1C95774A0134A678BA7A36B3082F751E"}
+11:51:46 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:51:47 code0155a1758faa41ba1c67340fd11a3d65
+11:51:47 openidoK4jGjvVXSUDTksD9JRrrXfsGLXc
+11:51:47 postXml-xml:<xml><openid><![CDATA[oK4jGjvVXSUDTksD9JRrrXfsGLXc]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681412049107]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.58.105]]></spbill_create_ip><nonce_str><![CDATA[x4pa4yf65it3rt0mixqwdfaxklf3heva]]></nonce_str><sign><![CDATA[7370BCEA549D521C8B8F7D5D97FC7E0D]]></sign></xml>
+11:51:47 postXmlCurl-xml:<xml><openid><![CDATA[oK4jGjvVXSUDTksD9JRrrXfsGLXc]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681412049107]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.58.105]]></spbill_create_ip><nonce_str><![CDATA[x4pa4yf65it3rt0mixqwdfaxklf3heva]]></nonce_str><sign><![CDATA[7370BCEA549D521C8B8F7D5D97FC7E0D]]></sign></xml>
+11:51:48 postXmlCurl-data:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx6b00d4511b981668]]></appid>
+<mch_id><![CDATA[10016845]]></mch_id>
+<nonce_str><![CDATA[dFl4Y8zjCjF4Utvg]]></nonce_str>
+<sign><![CDATA[11BDA77554ADC14B9C7BFBC6000C7C4D]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20140930115243df4d2c7e8d0167271106]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+11:51:48 jsApiParameters {"appId":"wx6b00d4511b981668","timeStamp":"1412049108","nonceStr":"8yq6qyptzhs1jc1rstb7pofv6p8zx2m0","package":"prepay_id=wx20140930115243df4d2c7e8d0167271106","signType":"MD5","paySign":"8D193FB4FDC56293878911CDAF6E51CF"}
+11:52:36 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.pewytx.com/wxpay/v3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+11:52:36 code0210922a279fe2807e07d20ba1d32fc7
+11:52:37 openidoK4jGjld6dXjbaroXZoFI6COk6PQ
+11:52:37 postXml-xml:<xml><openid><![CDATA[oK4jGjld6dXjbaroXZoFI6COk6PQ]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681412049157]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.58.105]]></spbill_create_ip><nonce_str><![CDATA[358mdvixsf8utvm036v4qsoxujwf04sp]]></nonce_str><sign><![CDATA[07C0FDD7C52D81EB6C10F98E04B727B8]]></sign></xml>
+11:52:37 postXmlCurl-xml:<xml><openid><![CDATA[oK4jGjld6dXjbaroXZoFI6COk6PQ]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681412049157]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.pewytx.com/wxpay/v3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.58.105]]></spbill_create_ip><nonce_str><![CDATA[358mdvixsf8utvm036v4qsoxujwf04sp]]></nonce_str><sign><![CDATA[07C0FDD7C52D81EB6C10F98E04B727B8]]></sign></xml>
+11:52:38 postXmlCurl-data:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx6b00d4511b981668]]></appid>
+<mch_id><![CDATA[10016845]]></mch_id>
+<nonce_str><![CDATA[frxOND61p6tECuiQ]]></nonce_str>
+<sign><![CDATA[DA8076D97E0A913233EEC4E3A518BE8C]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201409301153330612ce342b0491928229]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+11:52:38 jsApiParameters {"appId":"wx6b00d4511b981668","timeStamp":"1412049158","nonceStr":"bhyxoj9m5ts8ln3878z6b9wov30lv78k","package":"prepay_id=wx201409301153330612ce342b0491928229","signType":"MD5","paySign":"4D0C6655022919E3587AF5BAE4ADD1CC"}
+09:58:24 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.39ebuy.com/wxpayv3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+09:58:24 code0222009fe2c523ae72bc56b17cc0425b
+09:58:25 openidoK4jGjvVXSUDTksD9JRrrXfsGLXc
+09:58:25 postXml-xml:<xml><openid><![CDATA[oK4jGjvVXSUDTksD9JRrrXfsGLXc]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681414288705]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.62.42]]></spbill_create_ip><nonce_str><![CDATA[7aayrwiuyk1rsyxtiqltsmeb7h3r83sp]]></nonce_str><sign><![CDATA[E05CF2CE9ED6ACA7E44E5F4FE2EA1E10]]></sign></xml>
+09:58:25 postXmlCurl-xml:<xml><openid><![CDATA[oK4jGjvVXSUDTksD9JRrrXfsGLXc]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681414288705]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.62.42]]></spbill_create_ip><nonce_str><![CDATA[7aayrwiuyk1rsyxtiqltsmeb7h3r83sp]]></nonce_str><sign><![CDATA[E05CF2CE9ED6ACA7E44E5F4FE2EA1E10]]></sign></xml>
+09:58:26 postXmlCurl-data:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx6b00d4511b981668]]></appid>
+<mch_id><![CDATA[10016845]]></mch_id>
+<nonce_str><![CDATA[LsL1BqKsyJbYdphC]]></nonce_str>
+<sign><![CDATA[1C907C5BB9E49DDDB64CB17BE9423CF0]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2014102609582877e8f0c9120712950746]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+09:58:26 jsApiParameters {"appId":"wx6b00d4511b981668","timeStamp":"1414288706","nonceStr":"2097eaba1zflbj5zchnkzq91i1uu8iob","package":"prepay_id=wx2014102609582877e8f0c9120712950746","signType":"MD5","paySign":"D76D81967E012EBE30D7F0D68C599116"}
+09:59:49 urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6b00d4511b981668&redirect_uri=http://www.39ebuy.com/wxpayv3/demo/js_api_call.php&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+10:05:00 postXml-xml:<xml><openid><![CDATA[oK4jGjvVXSUDTksD9JRrrXfsGLXc]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681414289100]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.62.42]]></spbill_create_ip><nonce_str><![CDATA[7l60codjenrocohexvlbe2uxkrk9scno]]></nonce_str><sign><![CDATA[8254D0F4CF781B25866F1A701FA9D9EB]]></sign></xml>
+10:05:00 postXmlCurl-xml:<xml><openid><![CDATA[oK4jGjvVXSUDTksD9JRrrXfsGLXc]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx6b00d4511b9816681414289100]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx6b00d4511b981668]]></appid><mch_id>10016845</mch_id><spbill_create_ip><![CDATA[118.252.62.42]]></spbill_create_ip><nonce_str><![CDATA[7l60codjenrocohexvlbe2uxkrk9scno]]></nonce_str><sign><![CDATA[8254D0F4CF781B25866F1A701FA9D9EB]]></sign></xml>
+10:05:01 postXmlCurl-data:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx6b00d4511b981668]]></appid>
+<mch_id><![CDATA[10016845]]></mch_id>
+<nonce_str><![CDATA[l6wmSzmYRIAaeGDJ]]></nonce_str>
+<sign><![CDATA[6E254991DACE829B4B867F0EE6EC0871]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201410261005048f39dc90440507016181]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+15:30:11 postXml-xml:<xml><openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx8919020d377837641414395011]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><spbill_create_ip><![CDATA[118.252.52.251]]></spbill_create_ip><nonce_str><![CDATA[12vyir4fwj5plbw6q0oaj5rmq6hg2lo6]]></nonce_str><sign><![CDATA[2FCB98C61A235F3A26F07B02557BF1FB]]></sign></xml>
+15:30:11 postXmlCurl-xml:<xml><openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid><body><![CDATA[贡献一分钱]]></body><out_trade_no><![CDATA[wx8919020d377837641414395011]]></out_trade_no><total_fee>1</total_fee><notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url><trade_type><![CDATA[JSAPI]]></trade_type><appid><![CDATA[wx8919020d37783764]]></appid><mch_id>10012857</mch_id><spbill_create_ip><![CDATA[118.252.52.251]]></spbill_create_ip><nonce_str><![CDATA[12vyir4fwj5plbw6q0oaj5rmq6hg2lo6]]></nonce_str><sign><![CDATA[2FCB98C61A235F3A26F07B02557BF1FB]]></sign></xml>
+15:30:12 postXmlCurl-data:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx8919020d37783764]]></appid>
+<mch_id><![CDATA[10012857]]></mch_id>
+<nonce_str><![CDATA[WUyECZGvfWXHwBDB]]></nonce_str>
+<sign><![CDATA[BC98EED3D8B73B437DFDC286541BAAE6]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2014102715300583052f9cc20027677891]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+15:30:12 xmlToArray:<xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx8919020d37783764]]></appid>
+<mch_id><![CDATA[10012857]]></mch_id>
+<nonce_str><![CDATA[WUyECZGvfWXHwBDB]]></nonce_str>
+<sign><![CDATA[BC98EED3D8B73B437DFDC286541BAAE6]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2014102715300583052f9cc20027677891]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+
+
+15:32:56 postXml-xml:
+<xml>
+  <openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>
+  <body><![CDATA[贡献一分钱]]></body>
+  <out_trade_no><![CDATA[wx8919020d377837641414395176]]></out_trade_no>
+  <total_fee>1</total_fee>
+  <notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <appid><![CDATA[wx8919020d37783764]]></appid>
+  <mch_id>10012857</mch_id>
+  <spbill_create_ip><![CDATA[118.252.52.251]]></spbill_create_ip>
+  <nonce_str><![CDATA[t0j2s5gry70uec5icctqs6vggvaazstx]]></nonce_str>
+  <sign><![CDATA[E2D99ACC4FF45E6CFB98D015EB3BA857]]></sign>
+</xml>
+
+15:32:56 postXmlCurl-xml:
+<xml>
+  <openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>
+  <body><![CDATA[贡献一分钱]]></body>
+  <out_trade_no><![CDATA[wx8919020d377837641414395176]]></out_trade_no>
+  <total_fee>1</total_fee>
+  <notify_url><![CDATA[http://www.39ebuy.com/wxpayv3/demo/notify_url.php]]></notify_url>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <appid><![CDATA[wx8919020d37783764]]></appid>
+  <mch_id>10012857</mch_id>
+  <spbill_create_ip><![CDATA[118.252.52.251]]></spbill_create_ip>
+  <nonce_str><![CDATA[t0j2s5gry70uec5icctqs6vggvaazstx]]></nonce_str>
+  <sign><![CDATA[E2D99ACC4FF45E6CFB98D015EB3BA857]]></sign>
+</xml>
+
+15:32:57 postXmlCurl-data:
+<xml>
+  <return_code><![CDATA[SUCCESS]]></return_code>  
+  <return_msg><![CDATA[OK]]></return_msg>  
+  <appid><![CDATA[wx8919020d37783764]]></appid>  
+  <mch_id><![CDATA[10012857]]></mch_id>  
+  <nonce_str><![CDATA[NuqpMeBhVlOxJP7Y]]></nonce_str>  
+  <sign><![CDATA[F58A5A65399F0337E3A42C8B6C5503B0]]></sign>  
+  <result_code><![CDATA[SUCCESS]]></result_code>  
+  <prepay_id><![CDATA[wx20141027153250bbb775c39a0209358802]]></prepay_id>  
+  <trade_type><![CDATA[JSAPI]]></trade_type> 
+</xml>
+
+
+
+15:32:57 prepay_id wx20141027153250bbb775c39a0209358802
+15:32:57 jsApiParameters 
+{
+    "appId": "wx8919020d37783764",
+    "timeStamp": "1414395177",
+    "nonceStr": "xbvko58itunv39c30fguhjz282ha11xw",
+    "package": "prepay_id=wx20141027153250bbb775c39a0209358802",
+    "signType": "MD5",
+    "paySign": "493C2A9E10A927725F2CF688C1DF628F"
+}
+15:33:21 xmlToArray:
+<xml>
+  <appid><![CDATA[wx8919020d37783764]]></appid>  
+  <bank_type><![CDATA[CFT]]></bank_type>  
+  <fee_type><![CDATA[CNY]]></fee_type>  
+  <is_subscribe><![CDATA[Y]]></is_subscribe>  
+  <mch_id><![CDATA[10012857]]></mch_id>  
+  <nonce_str><![CDATA[t0j2s5gry70uec5icctqs6vggvaazstx]]></nonce_str>  
+  <openid><![CDATA[ou9dHt0L8qFLI1foP-kj5x1mDWsM]]></openid>  
+  <out_trade_no><![CDATA[wx8919020d377837641414395176]]></out_trade_no>  
+  <result_code><![CDATA[SUCCESS]]></result_code>  
+  <return_code><![CDATA[SUCCESS]]></return_code>  
+  <sign><![CDATA[A324FA8F74D35F68CDA73D1B02287327]]></sign>  
+  <sub_mch_id><![CDATA[10012857]]></sub_mch_id>  
+  <time_end><![CDATA[20141027153310]]></time_end>  
+  <total_fee>1</total_fee>  
+  <trade_type><![CDATA[JSAPI]]></trade_type>  
+  <transaction_id><![CDATA[1002750185201410270005491204]]></transaction_id> 
+</xml>

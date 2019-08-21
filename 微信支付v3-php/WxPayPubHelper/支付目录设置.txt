@@ -1,0 +1,9 @@
+
+
+
+jsapi授权目录
+支付授权目录 http://www.39ebuy.com/wxpayv3/demo/
+
+Native原生支付  http://www.39ebuy.com/wxpayv3/demo/native_call.php
+
+告警通知URL http://www.39ebuy.com/wxpayv3/demo/alarm.php
